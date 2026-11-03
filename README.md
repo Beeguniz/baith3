@@ -219,13 +219,3 @@ Theo phương án này, nút vật lý được thay bằng nút web nên không
 
 Chu kỳ timer dự kiến là 1.000 ms; ISR timer chỉ cập nhật cờ/bộ đếm. [Bổ sung] Ghi chu kỳ đã cấu hình, dụng cụ/phương pháp đo, số mẫu, chu kỳ trung bình, nhỏ nhất/lớn nhất và so sánh với `millis()`. Sai lệch tuyệt đối = |chu kỳ đo − chu kỳ đặt|; sai lệch phần trăm = sai lệch tuyệt đối / chu kỳ đặt × 100%. Chưa có số liệu để kết luận độ ổn định hoặc độ sáng/tốc độ thực tế.
 
-| Cách tạo sự kiện | Chu kỳ đặt | Chu kỳ đo trung bình | Min / max | Sai lệch |
-| --- | --- | --- | --- | --- |
-| Timer phần cứng | 1.000 ms (dự kiến) | Chưa đo | Chưa đo | Chưa tính |
-| `millis()` | 1.000 ms (dự kiến) | Chưa đo | Chưa đo | Chưa tính |
-
-| Duty PWM |  Quan sát độ sáng/tốc độ | 
-| --- | --- | --- | --- |
-| 25% | Low | Low  | 
-| 50% | Medium | Medium | 
-| 90% | High | High | 
