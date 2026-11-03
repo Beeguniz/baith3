@@ -1,10 +1,5 @@
 # Bài 3 — Điều khiển thiết bị an toàn
 
-## Sơ đồ máy trạng thái
-
-![Máy trạng thái DỪNG, CHẠY, LỖI](fsm_diagram.png)
-
-Sơ đồ áp dụng riêng cho LED1, LED2 và MOTOR1, thể hiện giới hạn 20 giây và ưu tiên dừng khi lỗi. MOTOR2 ngoài phạm vi.
 
 ## Trạng thái mới nhất — LED1, LED2 và MOTOR1 điều khiển thật
 
